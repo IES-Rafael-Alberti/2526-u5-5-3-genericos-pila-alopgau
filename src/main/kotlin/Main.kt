@@ -1,6 +1,5 @@
 package org.iesra.revilofe
 
-import org.iesra.revilofe.un4.eje4_4.reverse
 
 fun main() {
     val numbers = listOf("one", "two", "three", "four")
