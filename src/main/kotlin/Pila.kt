@@ -31,7 +31,7 @@ class Pila<T>: Iterable<T> {
     }
     fun snapshot() = pila.toList()
     override fun iterator(): Iterator<T> {
-        var posicion = this.size-1
+        var posicion = size-1
     return object : Iterator<T> {
         override fun hasNext() = 0 <= posicion
 
