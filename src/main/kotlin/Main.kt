@@ -7,13 +7,11 @@ fun main() {
     pila.push(2)
     pila.push(3)
     println(pila.snapshot())
-    println(pila.size())
-    pila.pop()
-    pila.pop()
-    println(pila.snapshot())
-    println(pila.size())
+    pila.forEach {
+        println(it)
+    }
 
-    /*
+
     val numbers = listOf("one", "two", "three", "four")
     val numbersRev = reverse(numbers)
 
@@ -23,5 +21,5 @@ fun main() {
         println("Correcto")
     }
 
-    println(numbersRev) */
+    println(numbersRev)
 }
